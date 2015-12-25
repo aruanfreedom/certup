@@ -1,0 +1,267 @@
+            @media only screen and (min-width: 1920px) {
+
+            }
+            
+            @media only screen and (max-width: 1366px) {
+              .home{
+                .icon{
+                  p{
+                    font-size: 1em;
+                  }
+                }
+                .lang{
+                  margin:0;
+                  .button{
+                    margin-top: 20px;
+                    padding: 1em 1em 1.0625em;
+                    float: right;
+                  }
+                  a{
+                    margin-top: 30px;
+                    font-size: 0.8em;
+                    float: left;
+                  }
+
+                }
+                #menu-certup{
+                  .left{
+                    li{
+                      a{
+                        text-decoration: underline;
+                        font-size: 0.85em;
+                        padding: 0 8.5px;
+                        &.active{
+                          background: #fff;
+                          color: #e7bc37;
+                        }
+                      }
+                    }
+                  }
+                  .top-bar{
+                    section{
+                      ul{
+                        li{
+                          padding-right: 0;
+                          &.search{
+                            padding: 0 5px;
+                          }
+                        }
+                      }
+                    }
+                    .right{
+                      input{
+                        background: url("../img/icons/search.png") no-repeat 10px center;
+                        padding-left: 35px;
+                        height: 2.4em;
+                        width: 330px;
+                      }
+                    }
+                  }
+                }
+                #video{
+                  .tabs-content{
+                    iframe{
+                      height: 91.6%;
+                    }
+                  }
+                }
+                #stock{
+                  h2{
+                    width: 16%;
+                  }
+                  section{
+                    p{
+                      font-size: 0.8em;
+                    }
+                    .button{
+                      padding: 1em 1em 1.0625em;
+                      font-size: 0.8em;
+                    }
+                    a{
+                      font-size: 0.8em;
+                    }
+                    .iphone{
+                      left: 18%;
+                    }
+                    .vert-center{
+                      font-size: .8em;
+                    }
+                  }
+                }
+                #news{
+                  h2{
+                    width: 22%;
+                  }
+                  section{
+                    p{
+                      &.description{
+                        font-size: 0.8em;
+                      }
+                    }
+                    i{
+                      font-size: 0.7em;
+                    }
+                  }
+                }
+                #footer{
+                  ul{
+                    li{
+                      a{
+                        font-size: 0.7em;
+                      }
+                    }
+                  }
+                  .button{
+                    padding: 1em 1em 1.0625em;
+                    font-size: 0.8em;
+                  }
+                  .copyright{
+                    font-size: 0.65em;
+                  }
+                }
+              }
+              #sign{
+                .welcome{
+                  h2{
+                    font-size: 0.8em;
+                    padding-top: 60px;
+                  }
+                }
+                .sign{
+                  padding: 1em 1em 1.0625em;
+                  font-size: 0.8em;
+                }
+                .registration{
+                  padding: 1em 1em 1.0625em;
+                  font-size: 0.8em;
+                }
+              }
+              #registration{
+                h2{
+                  font-size: 0.9em;
+                }
+                .sign{
+                  padding: 1em 1em 1.0625em;
+                  font-size: 0.8em;
+                }
+                .code{
+                  font-size: 0.53em;
+                }
+                label{
+                  a{
+                    font-size: 0.55em;
+                  }
+                }
+              }
+            }
+
+            @media only screen and (max-width: 1280px) {
+              .home{
+                .icon{
+                  p{
+                    font-size: 0.8em;
+                  }
+                }
+                .lang{
+                  margin:0;
+                  .button{
+                    margin-top: 20px;
+                    padding: 1em 1em 1.0625em;
+                    float: right;
+                  }
+                  a{
+                    font-size: 0.7em;
+                  }
+
+                }
+                #menu-certup{
+                  .left{
+                    li{
+                      a{
+                        font-size: 0.75em;
+                      }
+                    }
+                  }
+                  .top-bar{
+                    .right{
+                      input{
+                        font-size: 0.8em;
+                        width: 310px;
+                      }
+                    }
+                  }
+                }
+                #video{
+                  .tabs-content{
+                    iframe{
+                      height: 92.3%;
+                    }
+                  }
+                }
+                #stock{
+                  section{
+                    h3{
+                      font-size: 0.9em;
+                    }
+                    p{
+                      font-size: 0.8em;
+                    }
+                  }
+                }
+                #footer{
+                  ul{
+                    li{
+                      a{
+                        font-size: 0.7em;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            
+            @media only screen and (max-width: 980px) {
+                #sign{
+                  .welcome{
+                    padding: 10px 0;
+                    h2{
+                      font-size: 0.6em;
+                    }
+                  }
+                  label{
+                    font-size: 1.1em;
+                    a{
+                      font-size: 0.75em;
+                    }
+                    .pass{
+                      top: 45px;
+                    }
+                  }
+                  input{
+                    height: 2.913rem;
+                  }
+                  .registration{
+                    margin-top: 10px;
+                  }
+                }
+              #registration{
+                label{
+                  font-size: 0.8em;
+                }
+                .code{
+                  font-size: 0.75em;
+                }
+              }
+            }
+            
+            @media only screen and (max-width: 800px) {
+
+            }
+            
+            @media only screen and (max-width: 768px) {}
+            
+            @media only screen and (max-width: 360px) {
+
+            }
+            
+            @media only screen and (max-width: 320px) {}
