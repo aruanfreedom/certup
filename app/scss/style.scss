@@ -380,10 +380,33 @@ body{
         }
       }
     }
+    .search-code{
+      padding-top: 40px;
+      section {
+        border-top: 2px dotted #babec2;
+        h2 {
+          background: #fff;
+          color: #313131;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 2em;
+          margin: -25px auto;
+          margin-bottom: 20px;
+          width: 35%;
+        }
+        h3 {
+          margin: 0;
+          margin-bottom: 35px;
+          font-size: 1em;
+          i {
+            color: #9a9a9a;
+            font-size: 1em;
+          }
+        }
+      }
+    }
   }
 }
-
-
 
 #sign, #registration{
   .margin{
@@ -495,7 +518,6 @@ body{
     }
   }
 }
-
 
 @import "media";
 

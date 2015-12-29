@@ -7022,6 +7022,26 @@ body {
         font-weight: bold;
         font-size: 0.85em;
         height: 70px; }
+  .home #service .search-code {
+    padding-top: 40px; }
+    .home #service .search-code section {
+      border-top: 2px dotted #babec2; }
+      .home #service .search-code section h2 {
+        background: #fff;
+        color: #313131;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2em;
+        margin: -25px auto;
+        margin-bottom: 20px;
+        width: 35%; }
+      .home #service .search-code section h3 {
+        margin: 0;
+        margin-bottom: 35px;
+        font-size: 1em; }
+        .home #service .search-code section h3 i {
+          color: #9a9a9a;
+          font-size: 1em; }
 
 #sign .margin.padding-top, #registration .margin.padding-top {
   height: 100px; }
