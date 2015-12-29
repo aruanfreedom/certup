@@ -111,7 +111,7 @@ $include-html-global-classes: $include-html-classes;
 // $steel       : #666666;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
- $oil         : #fff;
+ $oil         : #faf9f7;
 // $jet         : #222222;
 // $black       : #000000;
 
@@ -135,9 +135,9 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to control text direction settings
 // $text-direction: ltr;
-// $opposite-direction: right;
-// $default-float: left;
-// $last-child-float: $opposite-direction;
+ $opposite-direction: right;
+ $default-float: left;
+ $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -956,12 +956,12 @@ $include-html-global-classes: $include-html-classes;
 // $include-pagination-classes: $include-html-classes;
 
 // We use these to control the pagination container
-// $pagination-height: rem-calc(24);
-// $pagination-margin: rem-calc(-5);
+ $pagination-height: rem-calc(80);
+ $pagination-margin: rem-calc(10);
 
 // We use these to set the list-item properties
 // $pagination-li-float: $default-float;
-// $pagination-li-height: rem-calc(24);
+ $pagination-li-height: rem-calc(80);
 // $pagination-li-font-color: $jet;
 // $pagination-li-font-size: rem-calc(14);
 // $pagination-li-margin: rem-calc(5);
@@ -969,19 +969,19 @@ $include-html-global-classes: $include-html-classes;
 // We use these for the pagination anchor links
 // $pagination-link-pad: rem-calc(1 10 1);
 // $pagination-link-font-color: $aluminum;
-// $pagination-link-active-bg: scale-color($white, $lightness: -10%);
+ $pagination-link-active-bg: #ccc;
 
 // We use these for disabled anchor links
 // $pagination-link-unavailable-cursor: default;
 // $pagination-link-unavailable-font-color: $aluminum;
-// $pagination-link-unavailable-bg-active: transparent;
+ $pagination-link-unavailable-bg-active: transparent;
 
 // We use these for currently selected anchor links
-// $pagination-link-current-background: $primary-color;
-// $pagination-link-current-font-color: $white;
+ $pagination-link-current-background: #e7bc37;
+ $pagination-link-current-font-color: #000;
 // $pagination-link-current-font-weight: $font-weight-bold;
 // $pagination-link-current-cursor: default;
-// $pagination-link-current-active-bg: $primary-color;
+ $pagination-link-current-active-bg: #e7bf57;
 
 // 21. Panels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1403,7 +1403,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
- $topbar-bg-color: #fff;
+ $topbar-bg-color: #faf9f7;
  $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1419,13 +1419,13 @@ $body-font-family: 'Open Sans', sans-serif;
 
  $topbar-link-color: #000;
  $topbar-link-color-hover: #e7bc37;
- $topbar-link-color-active: #e7bc37;
- $topbar-link-color-active-hover: #e7bc37;
+ $topbar-link-color-active: #faf9f7;
+ $topbar-link-color-active-hover: #faf9f7;
 // $topbar-link-weight: $font-weight-normal;
  $topbar-link-font-size: rem-calc(17);
-// $topbar-link-hover-lightness: -10%; // Darken by 10%
- $topbar-link-bg: $topbar-bg;
- $topbar-link-bg-hover: #fff;
+ $topbar-link-hover-lightness: #faf9f7; // Darken by 10%
+ $topbar-link-bg: #faf9f7;
+ $topbar-link-bg-hover: #faf9f7;
 // $topbar-link-bg-color-hover: $charcoal;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
@@ -1438,31 +1438,31 @@ $body-font-family: 'Open Sans', sans-serif;
 // $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: $oil;
-// $topbar-dropdown-link-color: $white;
-// $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
-// $topbar-dropdown-link-bg: $oil;
-// $topbar-dropdown-link-bg-hover: $jet;
+ $topbar-dropdown-bg: #faf9f7;
+ $topbar-dropdown-link-color: #000;
+ $topbar-dropdown-link-color-hover: #ccc;
+ $topbar-dropdown-link-bg: #ccc;
+ $topbar-dropdown-link-bg-hover: #000;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: $white;
+ $topbar-dropdown-toggle-color: #ccc;
 // $topbar-dropdown-toggle-alpha: .4;
 
-// $topbar-dropdown-label-color: $monsoon;
+ $topbar-dropdown-label-color: #000;
 // $topbar-dropdown-label-text-transform: uppercase;
 // $topbar-dropdown-label-font-weight: $font-weight-bold;
 // $topbar-dropdown-label-font-size: rem-calc(10);
-// $topbar-dropdown-label-bg: $oil;
+ $topbar-dropdown-label-bg: #000;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
-// $topbar-menu-link-color: $white;
-// $topbar-menu-icon-color: $white;
-// $topbar-menu-link-color-toggled: $jumbo;
-// $topbar-menu-icon-color-toggled: $jumbo;
-// $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
+ $topbar-menu-link-color: rgba(113, 115, 111, 1);
+ $topbar-menu-icon-color: rgba(113, 115, 111, 1);
+ $topbar-menu-link-color-toggled: #000;
+ $topbar-menu-icon-color-toggled: #000;
+ $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
@@ -1489,53 +1489,3 @@ $body-font-family: 'Open Sans', sans-serif;
 // $include-accessibility-classes: true;
 // $include-table-visibility-classes: true;
 // $include-legacy-visibility-classes: true;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//$topbar-bg-color: #fff;
-//$topbar-bg: $topbar-bg-color;
-
-
-
-//$topbar-height: 50px;
-//
-//
-//$topbar-dropdown-bg: #eaeaea;
-//$topbar-dropdown-link-color: #e2e2e2;
-//
-//$topbar-dropdown-toggle-color: #6a6a6a;
-//
-//
-//$topbar-link-color: #000;
-//$topbar-link-color-hover: #179fda;
-//$topbar-link-color-active: #179fda;
-//
-//$topbar-link-font-size: em-calc(13);
-//$topbar-link-hover-lightness: #fff; // Darken by 30%
-//$topbar-link-bg-hover: #fff;
-//$topbar-link-bg-active: #179fda;
-//
-//
-//$topbar-menu-link-color: #3b3b3b;
-//$topbar-menu-icon-color: #3b3b3b;
-//
-//
-//$topbar-transition-speed: 300ms;
