@@ -1303,22 +1303,22 @@ select {
     display: block;
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-      background: #1e446c;
-      color: #222222; }
+      background: #fff;
+      color: #000; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #1f466f;
-      color: #222222;
+      background: #fff;
+      color: #000;
       display: block;
       font-family: "Open Sans", sans-serif;
       font-size: 1rem;
-      padding: 1rem; }
+      padding: 0.3125rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #1d4369; }
+        background: #fff; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem; }
       .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
-        background: #FFFFFF;
+        background: #fff;
         display: block; }
 
 .alert-box {
@@ -7036,12 +7036,100 @@ body {
         margin-bottom: 20px;
         width: 35%; }
       .home #service .search-code section h3 {
-        margin: 0;
-        margin-bottom: 35px;
-        font-size: 1em; }
+        margin: 25px 0;
+        font-size: 0.9em; }
         .home #service .search-code section h3 i {
           color: #9a9a9a;
-          font-size: 1em; }
+          font-size: 0.95em; }
+      .home #service .search-code section a:focus {
+        color: #000;
+        outline: 0; }
+      .home #service .search-code section .tabs dd.active > a, .home #service .search-code section .tabs .tab-title.active > a {
+        background: #fff;
+        color: #e7bc37; }
+      .home #service .search-code section .tabs dd > a, .home #service .search-code section .tabs .tab-title > a {
+        background: #fff;
+        color: #000;
+        padding: 0.1125rem 2.125rem; }
+      .home #service .search-code section .base-icon {
+        position: relative; }
+        .home #service .search-code section .base-icon.icon-search:before {
+          content: "";
+          background: url("../img/icons/group-basecode.png") repeat-x;
+          background-position: 0px;
+          position: absolute;
+          left: -15px;
+          top: 6px;
+          height: 10px;
+          width: 11px; }
+        .home #service .search-code section .base-icon.icon-arrow:before, .home #service .search-code section .base-icon.icon-arrow2:before {
+          content: "";
+          background: url("../img/icons/group-basecode.png") repeat-x;
+          background-position: -10px;
+          position: absolute;
+          left: -15px;
+          top: 7px;
+          height: 10px;
+          width: 9px; }
+        .home #service .search-code section .base-icon.icon-book:before, .home #service .search-code section .base-icon.icon-book2:before {
+          content: "";
+          background: url("../img/icons/group-basecode.png") repeat-x;
+          background-position: -21px;
+          position: absolute;
+          left: -17px;
+          top: 7px;
+          height: 10px;
+          width: 14px; }
+        .home #service .search-code section .base-icon.icon-arrow2:before {
+          background-position: -47px;
+          left: 20px; }
+        .home #service .search-code section .base-icon.icon-book2:before {
+          background-position: -56px;
+          left: 0; }
+      .home #service .search-code section .tab-title.active .base-icon.icon-search:before {
+        background-position: -34px; }
+      .home #service .search-code section .tab-title.active .base-icon.icon-arrow:before {
+        background-position: -47px; }
+      .home #service .search-code section .tab-title.active .base-icon.icon-book:before {
+        background-position: -56px; }
+    .home #service .search-code .content .search-input {
+      border: 1px solid #b8b8b8;
+      border-radius: 3px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      height: 45px; }
+    .home #service .search-code .content#panel2-2 p, .home #service .search-code .content#panel2-3 p {
+      padding-bottom: 20px;
+      padding-left: 35px;
+      font-size: 0.9em;
+      margin: 0; }
+    .home #service .search-code .content#panel2-2 strong, .home #service .search-code .content#panel2-3 strong {
+      text-transform: uppercase; }
+    .home #service .search-code .content#panel2-2 .accordion, .home #service .search-code .content#panel2-3 .accordion {
+      margin-top: 25px; }
+      .home #service .search-code .content#panel2-2 .accordion .accordion-navigation.active .base-icon.icon-arrow2:before, .home #service .search-code .content#panel2-3 .accordion .accordion-navigation.active .base-icon.icon-arrow2:before {
+        background-position: -71px; }
+      .home #service .search-code .content#panel2-2 .accordion .accordion-navigation .content.active .base-icon.icon-arrow2:before, .home #service .search-code .content#panel2-3 .accordion .accordion-navigation .content.active .base-icon.icon-arrow2:before {
+        background-position: -80px;
+        width: 9px; }
+    .home #service .search-code .content#panel2-3 .accordion-navigation .content.active .base-icon.icon-arrow2:before {
+      background-position: -91px;
+      left: 16px;
+      width: 13px; }
+    .home #service .search-code .content a {
+      color: #000; }
+    .home #service .search-code .prefix, .home #service .search-code .postfix {
+      border-width: 0px;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      font-size: 0.875rem;
+      height: 45px;
+      line-height: 45px;
+      width: 90%; }
+      .home #service .search-code .prefix.button, .home #service .search-code .postfix.button {
+        background: #587497; }
 
 #sign .margin.padding-top, #registration .margin.padding-top {
   height: 100px; }
@@ -7505,4 +7593,31 @@ body {
     .home #service .documents section h3 {
       font-size: 0.6em; }
     .home #service .documents section p {
-      font-size: 0.7em; } }
+      font-size: 0.7em; }
+    .home #service .search-code section h2 {
+      font-size: 1em;
+      margin: -15px auto;
+      margin-bottom: 0;
+      width: 50%; }
+    .home #service .search-code section .tabs dd > a, .home #service .search-code section .tabs .tab-title > a {
+      background: #fff;
+      color: #000;
+      padding: 0.1125rem 0.5rem;
+      font-size: 0.6em; }
+    .home #service .search-code section .base-icon {
+      position: relative; }
+      .home #service .search-code section .base-icon.icon-search:before {
+        left: -15px;
+        top: 2px; }
+      .home #service .search-code section .base-icon.icon-arrow:before, .home #service .search-code section .base-icon.icon-arrow2:before {
+        left: -12px;
+        top: 3px; }
+      .home #service .search-code section .base-icon.icon-book:before, .home #service .search-code section .base-icon.icon-book2:before {
+        left: -14px;
+        top: 3px; }
+      .home #service .search-code section .base-icon.icon-arrow2:before {
+        background-position: -47px;
+        left: 20px; }
+      .home #service .search-code section .base-icon.icon-book2:before {
+        background-position: -56px;
+        left: 0; } }

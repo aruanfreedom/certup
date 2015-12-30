@@ -9,7 +9,6 @@
     <!-- endbower -->
     <!-- Main:css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/base-code.css">
     <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css">
     <!-- endcss -->
     <!-- endbuild -->
@@ -140,22 +139,159 @@
                     <div class="large-6 columns large-centered">
                         <ul class="tabs" data-tab role="tablist">
                             <li class="tab-title active" role="presentation">
-                                <a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1"><img src="img/icons/search-yellow.jpg" alt="search yellow"> Поиск</a>
+                                <a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1"><div class="base-icon icon-search">Поиск</div></a>
                             </li>
-                            <li class="tab-title" role="presentation"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">Tab 2</a></li>
-                            <li class="tab-title" role="presentation"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-3">Tab 3</a></li>
+                            <li class="tab-title" role="presentation"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">
+                                <div class="base-icon icon-arrow"> Дерево ТНВЭД</div></a></li>
+                            <li class="tab-title" role="presentation"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-3">
+                                <div class="base-icon icon-book">Пояснения</div> </a></li>
                         </ul>
                     </div>
                     <div class="tabs-content">
                         <div role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
-                            <h4>First panel content goes here...</h4>
+                            <div class="large-6 columns large-centered">
+                                <h3 class="text-center"><i>Введите ключевое слово или код товара.В данном разделе представлена возможность определить код ТНВЭД ТС по наименованию товара и наоборот</i></h3>
+                            </div>
+                            <div class="large-8 columns large-centered">
+                                <div class="row collapse">
+                                    <div class="large-11 small-9 columns">
+                                        <input type="text" name="search" placeholder="Поиск" class="search-input">
+                                    </div>
+                                    <div class="large-1 small-3 columns">
+                                        <a href="#" class="button postfix"><img src="img/icons/search-big.png" alt="search-big"></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
-                            <h4>Second panel content goes here...</h4>
+
+                            <ul class="accordion" data-accordion>
+                                <li class="accordion-navigation">
+                                    <a href="#panel1a">
+                                        <div class="base-icon icon-book2"></div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>раздел 1.</strong> Живые животные; продукты животного происхождения </p>
+                                        </div>
+                                    </a>
+                                    <div id="panel1a" class="content">
+                                        <a href="#panel1a">
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>раздел 1 - 1.</strong> Живые животные; продукты животного происхождения </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="accordion-navigation">
+                                    <a href="#panel2a">
+                                        <div class="base-icon icon-book2"></div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>раздел 2.</strong> Продукты растительного происхождения </p>
+                                        </div>
+                                    </a>
+                                    <div id="panel2a" class="content">
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>раздел 2 - 2.</strong> Продукты растительного происхождения </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-navigation">
+                                    <a href="#panel3a">
+                                        <div class="base-icon icon-book2"></div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>раздел 6.</strong> Продукция химической и связанных с ней отраслей промышленности</p>
+                                        </div>
+                                    </a>
+                                    <div id="panel3a" class="content active">
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>28.</strong> Фармацевтическая продукция</p>
+                                        </div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>29.</strong> Удобрения</p>
+                                        </div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>30.</strong> Экстракты дубильные или красильные; таннины и их производные; красители, пигменты и прочие красящие вещества; краски и лаки; шпатлевки и прочие мастики; полиграфическая краска, чернила, тушь</p>
+                                        </div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>31.</strong> Эфирные масла и резиноиды; парфюмерные, косметические или туалетные средства</p>
+                                        </div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>32.</strong> Мыло, поверхностно–активные органические вещества, моющие средства, смазочные материалы, искусственные и готовые воски, составы для чистки или полировки, свечи и аналогичные изделия, пасты для лепки, пластилин, "зубоврачебный воск" и врачебные </p>
+                                        </div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>33.</strong> Белковые вещества; модифицированные крахмалы; клеи; ферменты</p>
+                                        </div>
+                                        <div class="base-icon icon-arrow2">
+                                            <p><strong>34.</strong> Взрывчатые вещества; пиротехнические изделия; спички; пирофорные сплавы; некоторые горючие вещества</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                         <div role="tabpanel" aria-hidden="true" class="content" id="panel2-3">
-                            <h4>Third panel content goes here...</h4>
-                        </div>
+
+                                <ul class="accordion" data-accordion>
+                                    <li class="accordion-navigation">
+                                        <a href="#panel1a1">
+                                            <div class="base-icon icon-book2"></div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>раздел 1.</strong></p>
+                                            </div>
+                                        </a>
+                                        <div id="panel1a1" class="content">
+                                            <a href="#panel1a2">
+                                                <div class="base-icon icon-arrow2">
+                                                    <p><strong>раздел 1 - 1.</strong> Живые животные; продукты животного происхождения </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-navigation">
+                                        <a href="#panel2a2">
+                                            <div class="base-icon icon-book2"></div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>раздел 2.</strong></p>
+                                            </div>
+                                        </a>
+                                        <div id="panel2a2" class="content">
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>раздел 2 - 2.</strong> Продукты растительного происхождения </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-navigation">
+                                        <a href="#panel3a3">
+                                            <div class="base-icon icon-book2"></div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>раздел 6.</strong></p>
+                                            </div>
+                                        </a>
+                                        <div id="panel3a3" class="content active">
+
+                                                <p>Продукция химической и связанных с ней отраслей промышленности</p>
+                                            <div class="base-icon icon-arrow2"><p><strong>28.</strong> Фармацевтическая продукция</p>
+                                            </div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>29.</strong> Удобрения</p>
+                                            </div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>30.</strong> Экстракты дубильные или красильные; таннины и их производные; красители, пигменты и прочие красящие вещества; краски и лаки; шпатлевки и прочие мастики; полиграфическая краска, чернила, тушь</p>
+                                            </div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>31.</strong> Эфирные масла и резиноиды; парфюмерные, косметические или туалетные средства</p>
+                                            </div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>32.</strong> Мыло, поверхностно–активные органические вещества, моющие средства, смазочные материалы, искусственные и готовые воски, составы для чистки или полировки, свечи и аналогичные изделия, пасты для лепки, пластилин, "зубоврачебный воск" и врачебные </p>
+                                            </div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>33.</strong> Белковые вещества; модифицированные крахмалы; клеи; ферменты</p>
+                                            </div>
+                                            <div class="base-icon icon-arrow2">
+                                                <p><strong>34.</strong> Взрывчатые вещества; пиротехнические изделия; спички; пирофорные сплавы; некоторые горючие вещества</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                     </div>
 
 
@@ -309,7 +445,7 @@
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
-<script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
 <script src="js/app.js"></script>
 <!-- endbower -->
 <!-- endbuild -->

@@ -608,6 +608,55 @@
                       }
                     }
                   }
+                  .search-code{
+                    section {
+                      h2 {
+                        font-size: 1em;
+                        margin: -15px auto;
+                        margin-bottom: 0;
+                        width: 50%;
+                      }
+                      .tabs dd > a, .tabs .tab-title > a {
+                        background: #fff;
+                        color: #000;
+                        padding: 0.1125rem 0.5rem;
+                        font-size: 0.6em;
+                      }
+                      .base-icon {
+                        position: relative;
+                        &.icon-search {
+                          &:before {
+                            left: -15px;
+                            top: 2px;
+                          }
+                        }
+                        &.icon-arrow, &.icon-arrow2 {
+                          &:before {
+                            left: -12px;
+                            top: 3px;
+                          }
+                        }
+                        &.icon-book, &.icon-book2 {
+                          &:before {
+                            left: -14px;
+                            top: 3px;
+                          }
+                        }
+                        &.icon-arrow2{
+                          &:before{
+                            background-position: -47px;
+                            left: 20px;
+                          }
+                        }
+                        &.icon-book2{
+                          &:before{
+                            background-position: -56px;
+                            left: 0;
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
 

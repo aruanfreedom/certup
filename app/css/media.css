@@ -366,4 +366,31 @@
     .home #service .documents section h3 {
       font-size: 0.6em; }
     .home #service .documents section p {
-      font-size: 0.7em; } }
+      font-size: 0.7em; }
+    .home #service .search-code section h2 {
+      font-size: 1em;
+      margin: -15px auto;
+      margin-bottom: 0;
+      width: 50%; }
+    .home #service .search-code section .tabs dd > a, .home #service .search-code section .tabs .tab-title > a {
+      background: #fff;
+      color: #000;
+      padding: 0.1125rem 0.5rem;
+      font-size: 0.6em; }
+    .home #service .search-code section .base-icon {
+      position: relative; }
+      .home #service .search-code section .base-icon.icon-search:before {
+        left: -15px;
+        top: 2px; }
+      .home #service .search-code section .base-icon.icon-arrow:before, .home #service .search-code section .base-icon.icon-arrow2:before {
+        left: -12px;
+        top: 3px; }
+      .home #service .search-code section .base-icon.icon-book:before, .home #service .search-code section .base-icon.icon-book2:before {
+        left: -14px;
+        top: 3px; }
+      .home #service .search-code section .base-icon.icon-arrow2:before {
+        background-position: -47px;
+        left: 20px; }
+      .home #service .search-code section .base-icon.icon-book2:before {
+        background-position: -56px;
+        left: 0; } }
